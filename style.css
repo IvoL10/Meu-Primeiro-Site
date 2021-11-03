@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+}
+/*==================BODY==========================*/
+
+
+/*==================INICIO-HEADER==========================*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    height: 80px;
+}
+.nav {
+    position: relative;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+}
+.nav img {
+    position: absolute;
+    left: 0;
+    width: 50px;
+}
+.nav h1 {
+    position: absolute;
+    left: 55px;
+    color: white;
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+}
+.nav ul li {
+    margin: 20px;
+}
+
+.menu:hover {
+    color: #12c64b;
+    cursor: pointer;
+}
+/*==================FINAL-HEADER==========================*/
+
+
+
+/*==================INICIO-AZUL==========================*/
+.azul {
+    background: #0E75D1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.content-azul {
+    height: 400px;
+    width: 1200px;
+    padding-top: 60px;
+    color: white;
+}
+.content-azul h1 {
+    font-size: 40px;
+}
+.content-azul p {
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+.content-azul button {
+    border: 0;
+    color: white;
+    background: Black;
+    width: 210px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 40px;
+    margin-top: 35px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.content-azul a {
+    color: white;
+    font-size: 12px;
+}
+
+.content-azul button:hover {
+    background: #12c64b;
+    color: black;
+}
+/*==================FINAL-AZUL==========================*/
+
+
+
+/*==================INICIO-BRANCO==========================*/
+.branco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    height: 700px;
+}
+.content-branco {
+    width: 1200px;
+}
+.content-branco h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+}
+.content-branco p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.content-branco ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+.content-branco ul li img {
+    margin-top: 40px;
+    width: 160px;
+}
+.content-branco ul li {
+    margin: 50px;
+    width: 200px;
+}
+.content-branco p {
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.content-branco h2 {
+    margin-top: 25px;
+    font-size: 20px;
+}
+/*==================FINAL-BRANCO==========================*/
+
+
+
+/*==================INICIO-CINZA==========================*/
+.cinza {
+    display: flex;
+    height: 1200px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(241, 241, 241);
+}
+.content-cinza {
+    padding-top: 40px;
+    text-align: center;
+}
+.text-plan {
+    text-align: center;
+}
+.text-plan h1 {
+    font-size: 40px;
+}
+.text-plan p {
+    font-weight: lighter;
+    font-size: 16px;
+}
+.cartao .cw {
+    margin-top: 20px;
+    width: 30px;
+}
+.cartao a {
+    color: black;
+    font-weight: lighter;
+}
+.plan {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 18px;
+}
+.plan-card {
+    background-color: white;
+    box-shadow: 3px 3px 5px #0000003b;
+    width: 300px;
+    height: 100%;
+    border-radius: 15px;
+    padding: 16px;
+}
+.plan-card-p {
+    height: 55px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0E75D1;
+    border-radius: 8px;
+    text-align: left;
+    padding-left: 8px;
+    color: #0E75D1;
+    font-size: 16px;
+}
+.plan-card h1 {
+    margin-top: 10px;
+    text-align: left;
+}
+.plan-card p {
+    padding-top: 15px;
+    text-align: left;
+    font-weight: lighter;
+}
+.plan-card ul li {
+    margin: 15px;
+    font-weight: lighter;
+}
+.plan-card ul {
+    text-align:left;
+    margin: 22px;
+    font-size: 16px;
+}
+.plan-card-pr {
+    height: 55px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FF4040;
+    border-radius: 8px;
+    text-align: left;
+    padding-left: 8px;
+    color: #FF4040;
+    font-size: 16px;
+}
+
+.btn-card button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    width: 190px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.btn-card button:hover {
+    background: #12c64b;
+    color: black;
+}
+/*==================FINAL-CINZA==========================*/
+
+
+
+/*==================INICIO-FOOTER==========================*/
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    height: 400px;
+}
+.footerrp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 140px;
+    height: 100%;
+    width: 1200px;
+}
+.footerrp img  {
+    position: relative;
+    bottom: 90px;
+    right: 140px;
+    width:60px;
+}
+.footerrp ul {
+    padding: 49px;   
+}
+.footerrp ul li {
+    font-weight: lighter;
+    margin-top: 20px;
+    list-style: none;
+    
+}
+.footerrp h2 {
+    position: relative;
+    bottom: 140px;
+    right: 70px;
+}
+
+.l1 {
+    position: relative;
+    bottom: 41px;
+}
+.l3 {
+    position: relative;
+    bottom: 41px;
+}
+.footerrp ul a {
+    color: white;
+    text-decoration: none;
+}
+.footerrp ul a:hover {
+    color: #12c64b;
+}
+.lct {
+    color: rgba(255, 255, 255, 0.377);
+}
+.ivo {
+    position: relative;
+    right: 120px;
+    bottom: 80px;
+    font-weight: lighter;
+    text-align: left;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.473);
+}
+
+.ivo hr {
+    position: relative;
+    right: 10px;
+    width: 580px;
+}
+
+/*==================FINAL-FOOTER==========================*/
