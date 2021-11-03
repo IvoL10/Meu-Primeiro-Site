@@ -8,4 +8,4 @@ Aluno: Ivo Luis
 
 Modulo atual: 7 - Negócios, preparando sua primeira venda
 
-Curso: CURSO DESENVOLVIMENTO WEB FULL STACK
+Curso: DESENVOLVIMENTO WEB FULL STACK
