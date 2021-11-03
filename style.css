@@ -260,6 +260,9 @@ header {
     background: #12c64b;
     color: black;
 }
+.btn-card button {
+    cursor: pointer;
+}
 /*==================FINAL-CINZA==========================*/
 
 
